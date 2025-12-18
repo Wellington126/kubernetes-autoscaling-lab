@@ -46,7 +46,7 @@ O ambiente é composto por **3 Máquinas Virtuais** rodando **Ubuntu Server 20.0
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/kubernetes-autoscaling-lab.git
+git clone https://github.com/Wellington126/kubernetes-autoscaling-lab.git
 cd lab-kubernetes
 
 # Inicie as máquinas virtuais
