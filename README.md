@@ -24,7 +24,7 @@ O laboratório simula um cenário real onde uma aplicação sofre picos de carga
 
 ### 1. Clonar e Subir as VMs
 ```bash
-git clone <https://github.com/Wellington126/kubernetes-autoscaling-lab.git>
+git clone https://github.com/Wellington126/kubernetes-autoscaling-lab.git
 cd lab-kubernetes
 vagrant up
 ```
