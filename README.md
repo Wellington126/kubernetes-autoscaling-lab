@@ -101,8 +101,3 @@ kubectl apply -f hpa.yaml
    ```bash
    kubectl exec -it $(kubectl get pod -l run=php-apache -o jsonpath="{.items[0].metadata.name}") -- stress-ng --vm 1 --vm-bytes 200M --timeout 600s
    ```
-
-### Evidência de Funcionamento
-O HPA escala para 4 réplicas para suportar a carga:
-
-![Resultado do HPA](screenshots/hpa.png)
